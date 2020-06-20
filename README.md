@@ -11,7 +11,7 @@ We highly recommend and only officially support the latest patch release of each
 Install using ```pip```...
 
 ```
-pip install django-models-extensions
+pip install django-extensions-models
 ```
 
 ### settings
