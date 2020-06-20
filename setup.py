@@ -6,7 +6,7 @@ README = open(os.path.join(here, 'README.md')).read()
 
 
 setup(
-    name='django-models-extensions',
+    name='django-extensions-models',
     version='0.1',
     packages=find_packages(),
     description='model extensions with timestamp and uuid and more',
@@ -14,7 +14,7 @@ setup(
     long_description_content_type="text/markdown",
     author='Thomas Adel',
     author_email='thomas.adel31@gmail.com',
-    url='https://github.com/thomas545/django-models-extensions',
+    url='https://github.com/thomas545/django-extensions-models',
     keywords='django-models-extensions model-extensions django-extensions',
     zip_safe=False,
     license='MIT',
