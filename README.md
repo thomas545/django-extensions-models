@@ -14,14 +14,6 @@ Install using ```pip```...
 pip install django-extensions-models
 ```
 
-### settings
-```
-INSTALLED_APPS = (
-    # ...
-    'models_extensions',
-)
-```
-
 ### Example
 Let's take a look at a quick example of using model extensions
 
