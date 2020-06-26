@@ -18,9 +18,9 @@ pip install django-extensions-models
 Let's take a look at a quick example of using model extensions
 
 ```
-from models_extensions.models import UUIDModel, TimeStampedModel, ActivatorModel
+from models_extensions.models import UUIDModel, TimeStampedModel, ActivatorModel, SoftDeleteModel
 
-class YourModel(UUIDModel, TimeStampedModel, ActivatorModel):
+class YourModel(UUIDModel, TimeStampedModel, ActivatorModel, SoftDeleteModel):
     # ...
 
 ```
