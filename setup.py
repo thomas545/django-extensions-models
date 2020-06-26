@@ -7,7 +7,7 @@ README = open(os.path.join(here, 'README.md')).read()
 
 setup(
     name='django-extensions-models',
-    version='1.0',
+    version='0.2',
     packages=find_packages(),
     description='model extensions with timestamp and uuid and more',
     long_description=README,
